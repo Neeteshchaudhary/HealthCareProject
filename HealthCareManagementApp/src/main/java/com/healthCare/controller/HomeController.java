@@ -29,11 +29,10 @@ public class HomeController {
 	@PostMapping("/regData")
 	public String regData(@ModelAttribute Reg reg,Model model) {
 		String uname = homeService.doReg(reg);
-		if(uname != null) {
+		if(uname != null) 
 			model.addAttribute("name",uname);
-		}else {
+		else
 			model.addAttribute("name","some went wrong");
-		}
 		return "login";
 	}
 }
