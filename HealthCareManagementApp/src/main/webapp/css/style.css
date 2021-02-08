@@ -56,6 +56,19 @@ li p ,li span {color:#007eff;}
     background-image: url(https://www.winglet-community.com/sites/winglet.live/files/styles/event_detail_bild/public/Titel811_Fotolia_118776938_XXL.jpg?itok=D05_Yjx1);
     background-repeat: repeat;
 	}
+	
+	.reg_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;   
+    left: 0;
+    overflow-y: scroll;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://previews.123rf.com/images/ra2studio/ra2studio1908/ra2studio190800290/128874858-genetic-test-and-biotechnology-concept-with-medical-technology-devices.jpg);
+    background-repeat: repeat;
+	}
 	#add_fn,#add_err3,#add_err4,#add_err5,#add_err6{margin-bottom: 0px;}
 	#log_err1,#log_err,#err,#err1,#err2,#err3,#err4,#err5,#err6,#err7{margin-top: -28px;}
 	.btn-login-submit {
