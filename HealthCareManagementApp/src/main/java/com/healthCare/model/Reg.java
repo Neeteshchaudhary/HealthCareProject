@@ -1,12 +1,15 @@
 package com.healthCare.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class Reg {
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int uid;
 	private String uname;
 	private String uemail;
