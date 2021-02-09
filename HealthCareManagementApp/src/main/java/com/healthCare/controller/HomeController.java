@@ -35,4 +35,9 @@ public class HomeController {
 			model.addAttribute("name","some went wrong");
 		return "login";
 	}
+	
+	@GetMapping("/login")
+	public String loginPage() {
+		return "login";
+	}
 }
