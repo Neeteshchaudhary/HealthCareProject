@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import com.healthCare.model.Login;
 import com.healthCare.model.Reg;
 import com.healthCare.service.HomeService;
 
@@ -39,5 +40,10 @@ public class HomeController {
 	@GetMapping("/login")
 	public String loginPage() {
 		return "login";
+	}
+	
+	@PostMapping("/userData")
+	public String addNurse(@ModelAttribute Login login, Model map) {
+		return "profile";
 	}
 }

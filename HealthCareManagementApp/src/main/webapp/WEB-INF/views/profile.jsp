@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- <h1>Hello Home page...</h1>
-  <a href="/reg">Registration Here</a>
-   <a href="/login">Login Here</a>
-   <a href="/addNurse">Add Nurse Here</a>
+  <h1>You have successfully logged in...</h1>
 </body>
 </html>

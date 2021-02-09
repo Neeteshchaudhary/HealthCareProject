@@ -39,7 +39,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="well login-box" style="width: 45%;">
-						<form name="myForm" action="" onsubmit="return log_validateForm()"
+						 <form name="myForm" action="/userData" onsubmit="return log_validateForm()"
 							method="post" autocomplete="off">
 							<div class="col-md-12" style="float: right; margin-bottom: 2%;">
 								<img src="images/logo.png" class="img-responsive"
@@ -54,7 +54,7 @@
 							<div class="col-md-10">
 								<div class="form-group">
 									<div class="icon-addon addon-lg">
-										<input type="text" placeholder="Email ID" id="log_user"
+										<input type="text" placeholder="Email ID" id="log_user" name="email"
 											class="form-control"> <label><img
 											src="images/Email.png" class="img-responsive" style=""></label>
 										<p id="log_err"></p>
@@ -65,7 +65,7 @@
 							<div class="col-md-10">
 								<div class="form-group">
 									<div class="icon-addon addon-lg">
-										<input type="password" placeholder="Password" id="log_pass"
+										<input type="password" placeholder="Password" id="log_pass" name="pwd"
 											maxlength="20" class="form-control"> <label>
 											<img src="images/NewPasswordicon.png" class="img-responsive"
 											style="width: 25px; margin-top: -2px;">
