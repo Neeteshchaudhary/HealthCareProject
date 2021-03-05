@@ -29,7 +29,7 @@ public class HomeController {
 	
 	@PostMapping("/regData")
 	public String regData(@ModelAttribute Reg reg,Model model) {
-		String uname = homeService.doReg(reg);
+		String uname = homeService.doReg(reg); 
 		if(uname != null) 
 			model.addAttribute("name",uname);
 		else
@@ -45,5 +45,10 @@ public class HomeController {
 	@PostMapping("/userData")
 	public String addNurse(@ModelAttribute Login login, Model map) {
 		return "profile";
+	}
+	
+	@GetMapping("/reg2")
+	public String reg2Page() {
+		return "reg2";
 	}
 }

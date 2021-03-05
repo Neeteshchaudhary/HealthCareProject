@@ -1,0 +1,45 @@
+*{
+    padding:0px;;
+    margin: 0px;
+    box-sizing:border-box;
+}
+.home{
+    padding: 180px 0px;
+    background-color:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3));
+    background-image: url(img/pointing2.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+
+}
+    
+.img-fluid {
+    max-width:100%;
+    height: 400px;
+}
+section.doctor img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+}	
+.col-lg-3{
+    float: right;
+    padding:10px;
+
+}
+hr{
+    width: 10%;
+    border-width:4px;
+    background-color: darkred;
+    margin: auto;
+    margin-bottom: 80px;
+
+}
+.contact{
+    background:linear-gradient(rgba(231, 4, 4, 0.918),rgba(255,5,26,0.65)), url(./img/team.jpg)no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+    
