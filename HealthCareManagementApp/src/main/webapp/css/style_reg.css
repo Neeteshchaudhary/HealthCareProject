@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://image.freepik.com/free-vector/flat-hand-drawn-hospital-reception-scene_52683-54613.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Times New Roman ;
+}
+h1{
+    font-size: 40px;
+    color: crimson;
+    margin-top: 250px;
+
+}
+p{
+    font-size: 17px;
+    color: black;
+}
+h3{
+    font-size: 40px;
+    color:darkblue;
+}
+.glyphicon-pencil{
+    font-size: 35px;
+    color: rgb(240, 29, 29);
+    float:right;
+    margin-top: 20px;
+}
+.col-md-5{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px black;
+    background-color: rgba(0,0,0,0.4);
+
+}
+.label{
+    font-weight: normal;
+    margin-top: 15px;
+    color:rgba(255, 0, 0, 0.836);
+    font-weight: 19px;
+    font-size:20px ;
+}
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: solid black;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 40px;
+    color:black;
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+}
+small{
+    font-size: 18px;
+    color: black;
+}
+input[type="radio"]{
+    margin-top: 22px;
+}
+option{
+    color: brown;
+}
+.btn btn-info{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.btn btn-warning{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+.aria-placeholde{
+    color: brown;
+}
